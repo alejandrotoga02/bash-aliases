@@ -1,4 +1,7 @@
 #!bin/sh
 
+# Get container process
+alias dps="docker ps"
+
 alias  dkrcomup="docker-compose up --build"
 alias  dkrcomupd="dkrcomup --d"
