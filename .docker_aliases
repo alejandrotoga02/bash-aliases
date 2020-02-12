@@ -1,0 +1,4 @@
+#!bin/sh
+
+alias  dkrcomup="docker-compose up --build"
+alias  dkrcomupd="dkrcomup --d"
