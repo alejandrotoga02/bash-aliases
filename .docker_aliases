@@ -3,5 +3,11 @@
 # Get container process
 alias dps="docker ps"
 
-alias  dkrcomup="docker-compose up --build"
-alias  dkrcomupd="dkrcomup --d"
+alias dc="docker-compose"
+
+# Build images before starting containers.
+alias dcb="docker-compose up --build"
+
+#  Build images before starting containers with Detached mode:
+#  Run containers in the background, print new container names. Incompatible with Incompatible with --abort-on-container-exit. 
+alias dcbd="docker-compose up --build --d"
